@@ -4,7 +4,7 @@ $('.contact-data').html(dataContact.map(item =>
 ).join(''));
 
 $('.contact-form').html(
-    `<form id="contact-form" action="https://formspree.io/xayojzrw" method="POST">
+    `<form id="contact-form" action="https://formspree.io/f/xqadvdka" method="POST">
         <input class="email form-control" type="email" name="_replyto" placeholder="Your email">
         <input class="name form-control" type="text" name="name" placeholder="Your name" />
         <input class="subject form-control" type="text" name="subject" placeholder="Subject" />
