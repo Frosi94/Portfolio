@@ -4,14 +4,21 @@ $('.contact-data').html(dataContact.map(item =>
 ).join(''));
 
 $('.contact-form').html(
-    `<form id="contact-form" action="https://formspree.io/f/xqadvdka" method="POST">
-        <input class="email form-control" type="email" name="_replyto" placeholder="Your email">
-        <input class="name form-control" type="text" name="name" placeholder="Your name" />
-        <input class="subject form-control" type="text" name="subject" placeholder="Subject" />
-        <textarea class="message form-control" name="message" placeholder="Message"></textarea>
-        <div class="status"></div> 
-        <button id="submitBtn" class="btn-send" type="submit">Send message</button>
-    </form>`
+    `<form
+  action="https://formspree.io/f/xqadvdka"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form`
 );
 
 // Events & validation
