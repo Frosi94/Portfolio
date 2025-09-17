@@ -1,5 +1,5 @@
 dataContact = [
     'Frosina Stojanovski',
-    'Tampa, Florida, USA',
+    'Skopje, Macedonia',
     'frosina94@gmail.com'
 ]
